@@ -141,7 +141,7 @@ OC.L10N.register(
     "Include all day events in conflict check" : "Do kontroly konfliktů zahrnout celodenní události",
     "Weekly Template Settings" : "Nastavení šablony pro každý týden",
     "Subscriptions Sync Interval" : "Interval synchronizace pro přihlášení se k odebírání",
-    "Nextcloud Only Sync" : "Synchronizace pouze s Nextcloud",
+    "bitnext Only Sync" : "Synchronizace pouze s bitnext",
     "1 Hour" : "každou hodinu",
     "2 Hours" : "2 hodiny",
     "4 Hours" : "4 hodiny",

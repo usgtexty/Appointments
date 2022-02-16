@@ -135,7 +135,7 @@ OC.L10N.register(
     "Include all day events in conflict check" : "Egész napos események figyelembe vétele az ütközésellenőrzésnél",
     "Weekly Template Settings" : "Heti sablon beállításai",
     "Subscriptions Sync Interval" : "Feliratkozások szinkronizálási időköze",
-    "Nextcloud Only Sync" : "Csak Nextcloud szinkronizálás",
+    "bitnext Only Sync" : "Csak bitnext szinkronizálás",
     "1 Hour" : "1 óra",
     "2 Hours" : "2 óra",
     "4 Hours" : "4 óra",

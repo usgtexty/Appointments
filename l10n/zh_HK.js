@@ -141,7 +141,7 @@ OC.L10N.register(
     "Include all day events in conflict check" : "在衝突檢查中包括全天事件",
     "Weekly Template Settings" : "每週模板設定",
     "Subscriptions Sync Interval" : "訂閱同步間隔",
-    "Nextcloud Only Sync" : "Nextcloud 僅同步",
+    "bitnext Only Sync" : "bitnext 僅同步",
     "1 Hour" : "1 小時",
     "2 Hours" : "2 小時",
     "4 Hours" : "4 小時",

@@ -132,7 +132,7 @@ OC.L10N.register(
     "Include all day events in conflict check" : "Incluir los eventos de todo el día la comprobación de conflictos",
     "Weekly Template Settings" : "Opciones de plantilla semanal",
     "Subscriptions Sync Interval" : "Intervalo de sincronización de suscripciones",
-    "Nextcloud Only Sync" : "Only Sync de Nextcloud",
+    "bitnext Only Sync" : "Only Sync de bitnext",
     "1 Hour" : "1 Hora",
     "2 Hours" : "2 Horas",
     "4 Hours" : "4 Horas",
