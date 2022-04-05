@@ -1615,7 +1615,7 @@ class BackendUtils
     function getUserTimezone($userId, $config) {
         $tz_name = $config->getUserValue($userId, 'calendar', 'timezone');
         if (empty($tz_name) || strpos($tz_name, 'auto') !== false) {
-            // Try Nextcloud default timezone
+            // Try bitnext default timezone
             $tz_name = $config->getUserValue($userId, 'core', 'timezone');
             if (empty($tz_name) || strpos($tz_name, 'auto') !== false) {
                 return \OC::$server->getDateTimeZone()->getTimeZone();

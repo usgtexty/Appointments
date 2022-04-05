@@ -141,7 +141,7 @@ OC.L10N.register(
     "Include all day events in conflict check" : "Çakışma denetimine tüm gün etkinlikler de katılsın",
     "Weekly Template Settings" : "Haftalık kalıp ayarları",
     "Subscriptions Sync Interval" : "Abonelik eşitleme sıklığı",
-    "Nextcloud Only Sync" : "Yalnız Nextcloud eşitlemesi",
+    "bitnext Only Sync" : "Yalnız bitnext eşitlemesi",
     "1 Hour" : "1 saat",
     "2 Hours" : "2 saat",
     "4 Hours" : "4 saat",

@@ -1110,7 +1110,7 @@ class DavListener implements IEventListener
             );
         }
 
-        $tmpl->addFooter("Booked via Nextcloud Appointments App");
+        $tmpl->addFooter("Booked via bitnext Appointments App");
 
     }
 

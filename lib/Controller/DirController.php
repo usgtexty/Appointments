@@ -67,7 +67,7 @@ class DirController  extends Controller
             if (!empty($pps[BackendUtils::PSN_PAGE_TITLE])) {
                 $tr->setHeaderTitle($pps[BackendUtils::PSN_PAGE_TITLE]);
             } else {
-                $tr->setHeaderTitle("Nextcloud | Appointments Directory");
+                $tr->setHeaderTitle("bitnext | Appointments Directory");
             }
             if (!empty($pps[BackendUtils::PSN_PAGE_SUB_TITLE])) {
                 $tr->setHeaderDetails($pps[BackendUtils::PSN_PAGE_SUB_TITLE]);

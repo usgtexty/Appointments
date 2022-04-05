@@ -74,7 +74,7 @@
               v-model="calInfo.tmmSubscriptionsSync"
               class="tsb-input"
               id="appt_tsb-appt-sub-refresh">
-            <option value="0">{{ t('appointments', 'Nextcloud Only Sync') }}</option>
+            <option value="0">{{ t('appointments', 'bitnext Only Sync') }}</option>
             <option value="60">{{ t('appointments', '1 Hour') }}</option>
             <option value="120">{{ t('appointments', '2 Hours') }}</option>
             <option value="240">{{ t('appointments', '4 Hours') }}</option>
