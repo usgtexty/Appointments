@@ -466,7 +466,7 @@
 
                 if (t === "T") {
                     dur = ds.substr(sp2, sp - sp2).split(';').map(n => n | 0)
-                    if (endTime===1 && dur.length < 2) {
+                    if (endTime === 1 && dur.length < 2) {
                         md.setTime(ts + dur[0] * 60000)
                         tStr += ' - ' + tf(md)
                     }
@@ -751,29 +751,29 @@
         d.setTime(d.getTime() + 86400000)
 
         // lcc%=5
-        if (lcc % 5 > 0) {
-            for (let ti, l = 5 - (lcc % 5), i = 0; i < l; i++) {
-
-                ti = d.getDay()
-
-                // Deal with weekends
-                if (pso[PPS_WEEKEND] === 0) {
-                    // only show weekdays
-                    ti = d.getDay()
-                } else {
-                    // show all days
-                    ti = 1
-                }
-
-                if (ti !== 0 && ti !== 6) {
-                    lcd.appendChild(makeDateCont(d, true))
-                } else {
-                    //skipping weekend
-                    i--
-                }
-                d.setTime(d.getTime() + 86400000)
-            }
-        }
+        // if (lcc % 5 > 0) {
+        //     for (let ti, l = 5 - (lcc % 5), i = 0; i < l; i++) {
+        //
+        //         ti = d.getDay()
+        //
+        //         // Deal with weekends
+        //         if (pso[PPS_WEEKEND] === 0) {
+        //             // only show weekdays
+        //             ti = d.getDay()
+        //         } else {
+        //             // show all days
+        //             ti = 1
+        //         }
+        //
+        //         if (ti !== 0 && ti !== 6) {
+        //             lcd.appendChild(makeDateCont(d, true))
+        //         } else {
+        //             //skipping weekend
+        //             i--
+        //         }
+        //         d.setTime(d.getTime() + 86400000)
+        //     }
+        // }
 
 
         // Make empty time cont
