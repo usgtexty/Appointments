@@ -121,7 +121,7 @@ OC.L10N.register(
     "Mark the appointment as canceled" : "Shëno takimin si të anuluar",
     "Reset (make the timeslot available)" : "Ricakto(shëno intervalin kohor si të disponueshëm)",
     "Weekly Template Settings" : "Cilësimet e Modelit Javor",
-    "Nextcloud Only Sync" : "Vetem Sinkronizim Nextcloud",
+    "bitnext Only Sync" : "Vetem Sinkronizim bitnext",
     "1 Hour" : "1 Orë",
     "2 Hours" : "2 Orë",
     "4 Hours" : "4 Orë",

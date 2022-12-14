@@ -140,7 +140,7 @@
     "Include all day events in conflict check" : "Inclou els esdeveniments de tot el dia a la comprovació de conflictes",
     "Weekly Template Settings" : "Paràmetres de la plantilla setmanal",
     "Subscriptions Sync Interval" : "Interval de sincronització de subscripcions",
-    "Nextcloud Only Sync" : "Sincronització només amb Nextcloud",
+    "bitnext Only Sync" : "Sincronització només amb bitnext",
     "1 Hour" : "1 hora",
     "2 Hours" : "2 hores",
     "4 Hours" : "4 hores",

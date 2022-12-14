@@ -80,7 +80,7 @@ form{
     </p>
     <p class="srgdev-appt-hs-p-h">
         <strong id="srgdev-sec_emaildef"><code>useDefaultEmail</code></strong> - Most instance of NC won't have the particular configuration allowing to send emails on behalf of organizers. Therefore, the default email address as per
-        <a class="srgdev-appt-hs-link" href="https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/email_configuration.html" target="_blank">Mail Settings</a> is used, and your address is added in the "Reply-To:" header field. If your Nextcloud configuration supports sending out emails for individual users, Admins can override the 'useDefaultEmail' directive like so:
+        <a class="srgdev-appt-hs-link" href="#" target="_blank">Mail Settings</a> is used, and your address is added in the "Reply-To:" header field. If your bitnext configuration supports sending out emails for individual users, Admins can override the 'useDefaultEmail' directive like so:
         <code class="srgdev-appt-hs-code_short">occ config:app:set appointments useDefaultEmail --value no</code></p>
     <p class="srgdev-appt-hs-p-h">
         <strong id="srgdev-sec_emailmoretext"><code>Additional Email Text</code></strong> - this text is appended as paragraph to the end of validation and confirmation emails. Currently only pain text is allowed, HTML will be escaped.
@@ -103,7 +103,7 @@ form{
             <em>Duration</em>: if you set multiple duration choices for an appointment, then a visitor will be able to pick one of them.
             <em>Title</em>: if this is set then the title will be displayed next or below the time in the form.</p>
         <p class="srgdev-appt-hs-p-h">
-            <strong id="srgdev-sec_tmm_subs_sync">Subscriptions Sync Interval</strong> - When linked(subscription) calendars are selected for conflict check, appointments app can pull data from remote servers before checking for scheduling conflicts. It is impractical to pull the data on every request as this will increase processing time especially if multiple remote calendars are selected. Nextcloud (as many other calendar systems) has a cache synchronization mechanism to facilitate timely updates, this option is provided just in-case you feel that the data is not refreshed often enough by nextcloud.
+            <strong id="srgdev-sec_tmm_subs_sync">Subscriptions Sync Interval</strong> - When linked(subscription) calendars are selected for conflict check, appointments app can pull data from remote servers before checking for scheduling conflicts. It is impractical to pull the data on every request as this will increase processing time especially if multiple remote calendars are selected. bitnext (as many other calendar systems) has a cache synchronization mechanism to facilitate timely updates, this option is provided just in-case you feel that the data is not refreshed often enough by bitnext.
         </p>
     </div>
     <p class="srgdev-appt-hs-p-h">
@@ -118,7 +118,7 @@ form{
         </p>
     </div>
     <p class="srgdev-appt-hs-p-h">
-        <strong>External mode</strong> - Use Nextcloud's Calendar App or any other CalDAV compatible client to add "available" timeslots. Most recurrence rules are supported in this mode. Two calendars are required: a "Source Calendar" to keep track of your availability timeslots and a "Destination Calendar" for booked appointments.
+        <strong>External mode</strong> - Use bitnext's Calendar App or any other CalDAV compatible client to add "available" timeslots. Most recurrence rules are supported in this mode. Two calendars are required: a "Source Calendar" to keep track of your availability timeslots and a "Destination Calendar" for booked appointments.
     </p>
     <div style="margin-left: 2em">
         <p class="srgdev-appt-hs-p-h">
@@ -239,15 +239,6 @@ form{
     ?&gt;
 ...</code></pre>
         More examples:
-        <a class="srgdev-appt-hs-link" target="_blank" href="https://github.com/SergeyMosin/Appointments/tree/master/tests/embedding">https://github.com/SergeyMosin/Appointments/tree/master/tests/embedding</a><br>
-        Nextcloud <strong>occ</strong>:
-        <a class="srgdev-appt-hs-link" target="_blank" href="https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/occ_command.html">https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/occ_command.html</a><br>
-        Frame Ancestors:
-        <a class="srgdev-appt-hs-link" target="_blank" href="https://w3c.github.io/webappsec-csp/#directive-frame-ancestors">https://w3c.github.io/webappsec-csp/#directive-frame-ancestors</a><br>
-        Additional information can be found here:
-        <a class="srgdev-appt-hs-link" target="_blank" href="https://github.com/SergeyMosin/Appointments/issues/191#issuecomment-909210230">https://github.com/SergeyMosin/Appointments/issues/191#issuecomment-909210230</a><br>
-        Some more information is here:
-        <a class="srgdev-appt-hs-link" target="_blank" href="https://github.com/SergeyMosin/Appointments/issues/268#issue-1067123944">https://github.com/SergeyMosin/Appointments/issues/268#issue-1067123944</a><br>
     </div>
 
     <h2 id="srgdev-sec_buffers" class="srgdev-appt-hs-h1">Booked and Pending Appointment Buffers</h2>
@@ -257,47 +248,5 @@ form{
         <img class="quick-start-guide-img" alt="appointment buffers" style="max-width: 700px" src="<?php print_unescaped(image_path('appointments', 'appointment-buffers.jpg')); ?>"/>
     </div>
     <br>
-
-    <h2 id="srgdev-sec_rem_lang" class="srgdev-appt-hs-h1">Default Reminders language</h2>
-    <div class="srgdev-appt-hs-p">
-        Nextcloud Cron uses
-        <code style="padding: .25em" class="srgdev-appt-hs-code_short">default_language</code> setting for internal calls as per here:
-        <a class="srgdev-appt-hs-link" href="https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/config_sample_php_parameters.html#user-experience" target="_blank">https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/config_sample_php_parameters.html#user-experience</a> which defaults to English. It might be different than the language selected in your user preferences.
-    </div>
-
-    <h2 class="srgdev-appt-hs-h1">Advanced/Notification Extensions</h2>
-    <div class="srgdev-appt-hs-p">
-        See
-        <a class="srgdev-appt-hs-link" href="https://github.com/SergeyMosin/Appointments/issues/26" target="_blank">https://github.com/SergeyMosin/Appointments/issues/26</a><br><br>
-        Ensure the <span style="font-style: italic">ext_notify_YourUserName</span> app config variable is set like so:
-        <code style="white-space: pre" class="srgdev-appt-hs-code">php occ config:app:set appointments "ext_notify_YourUserName" --value "/absolute/path/to/file.php"</code>
-    </div>
-
-    <h2 id="srgdev-sec_contrib_info" class="srgdev-appt-hs-h1">Contributor Features</h2>
-    <div class="srgdev-appt-hs-p">
-        The following features are only available to users that contributed to the development of this app:
-        <ol type="a" style="margin: .5em 0 1em 2em">
-            <li>Add more than 3 public pages (up to 10) to your setup</li>
-            <li>Use the directory webpage to publicly display multiple links</li>
-            <li>Additional Reminder options</li>
-            <li>More "Talk" integration options</li>
-            <li>And some others</li>
-        </ol>
-        Contributor features can be unlocked by obtaining a <i>contributor key</i> in any of the following ways:
-        <ol type="a" style="margin: .5em 0 1em 2em">
-            <li>Contribute any amount to this app development or sponsor a feature over at the
-                <a class="srgdev-appt-hs-link" target="_blank" href="https://www.srgdev.com/gh-support/nextcloudapps">Funding page</a>.
-            </li>
-            <li>Contribute code via a pull request on
-                <a class="srgdev-appt-hs-link" target="_blank" href="https://github.com/SergeyMosin/Appointments">GitHub</a>.
-            </li>
-            <li>If you are a member of the Nexcloud team on transifex.com please
-                <a class="srgdev-appt-hs-link" target="_blank" href="https://www.srgdev.com/contact.html#cnt_ancr">contact me</a> directly.
-            </li>
-            <li>Contact me if none of the above methods works for you.</li>
-        </ol>
-        Once you receive your key/code you can enter it in the
-        <code class="srgdev-appt-hs-code_short">Settings &gt; Contributor Key</code> section.<br>
-    </div>
 </div>
 

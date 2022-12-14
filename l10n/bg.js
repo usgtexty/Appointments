@@ -143,7 +143,7 @@ OC.L10N.register(
     "Title Template" : "Шаблон за заглавие",
     "Weekly Template Settings" : "Седмични настройки на шаблона",
     "Subscriptions Sync Interval" : "Интервал за синхронизиране на абонаменти",
-    "Nextcloud Only Sync" : "Синхронизиране само с Nextcloud",
+    "bitnext Only Sync" : "Синхронизиране само с bitnext",
     "1 Hour" : "1 час",
     "2 Hours" : "2 часа",
     "4 Hours" : "4 Часа",

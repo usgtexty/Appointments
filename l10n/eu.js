@@ -143,7 +143,7 @@ OC.L10N.register(
     "Title Template" : "Izenburuaren txantiloia",
     "Weekly Template Settings" : "Asteko txantiloi ezarpenak",
     "Subscriptions Sync Interval" : "Harpidetzak sinkronizazio-bitartea",
-    "Nextcloud Only Sync" : "Nextcloud sinkronizazioa soilik",
+    "bitnext Only Sync" : "bitnext sinkronizazioa soilik",
     "1 Hour" : "Ordu 1",
     "2 Hours" : "2 ordu",
     "4 Hours" : "4 Ordu",
