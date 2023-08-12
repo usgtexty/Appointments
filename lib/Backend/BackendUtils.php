@@ -1590,7 +1590,7 @@ class BackendUtils
         $tz_Z = "";
         $tz_data = "";
         if ($tz_data_str !== "UTC" && !empty($tz_data_str)) {
-            $tzo = Reader::read("BEGIN:VCALENDAR\r\nPRODID:-//IDN nextcloud.com//Appointments App//EN\r\nCALSCALE:GREGORIAN\r\nVERSION:2.0\r\n" . $tz_data_str . "\r\nEND:VCALENDAR");
+            $tzo = Reader::read("BEGIN:VCALENDAR\r\nPRODID:-//IDN bitnext.app//Appointments App//EN\r\nCALSCALE:GREGORIAN\r\nVERSION:2.0\r\n" . $tz_data_str . "\r\nEND:VCALENDAR");
             if (isset($tzo->VTIMEZONE) && isset($tzo->VTIMEZONE->TZID)) {
                 $tz_id = ';TZID=' . $tzo->VTIMEZONE->TZID->getValue();
                 $tz_data = trim($tzo->VTIMEZONE->serialize()) . "\r\n";
@@ -1648,7 +1648,7 @@ class BackendUtils
 
         return [
             '1_before_uid' => "BEGIN:VCALENDAR\r\n" .
-                "PRODID:-//IDN nextcloud.com//Appointments App | srgdev.com//EN\r\n" .
+                "PRODID:-//IDN bitnext.app//Appointments App | srgdev.com//EN\r\n" .
                 "CALSCALE:GREGORIAN\r\n" .
                 "VERSION:2.0\r\n" .
                 "BEGIN:VEVENT\r\n" .
@@ -1980,7 +1980,7 @@ class BackendUtils
     function transformCalInfo($c, $skipReadOnly = true)
     {
 
-        if (isset($c['{http://nextcloud.com/ns}deleted-at'])) {
+        if (isset($c['{http://bitnext.app/ns}deleted-at'])) {
             // skip "trash bin" calendars (calendars are placed into the "trash bin" and the deleted after 30 days)
             return null;
         }
@@ -2128,4 +2128,3 @@ class BackendUtils
     }
 
 }
-

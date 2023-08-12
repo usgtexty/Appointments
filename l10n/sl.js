@@ -142,7 +142,7 @@ OC.L10N.register(
     "Title Template" : "Predloga naslova",
     "Weekly Template Settings" : "Nastavitev tedenske predloge",
     "Subscriptions Sync Interval" : "Razmik usklajevanja naročnin",
-    "Nextcloud Only Sync" : "Le Nextcloud usklajevanje",
+    "bitnext Only Sync" : "Le bitnext usklajevanje",
     "1 Hour" : "1 ura",
     "2 Hours" : "2 uri",
     "4 Hours" : "4 ure",

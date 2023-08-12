@@ -148,7 +148,7 @@ OC.L10N.register(
     "Title Template" : "قالب العنوان",
     "Weekly Template Settings" : "إعدادات القالب الأسبوعي",
     "Subscriptions Sync Interval" : "فترة مزامنة الاشتراكات",
-    "Nextcloud Only Sync" : "المزامنة فقط مع نكست كلاود",
+    "bitnext Only Sync" : "المزامنة فقط مع نكست كلاود",
     "1 Hour" : "1 ساعة",
     "2 Hours" : "2 ساعات",
     "4 Hours" : "4 ساعات",

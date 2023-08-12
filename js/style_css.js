@@ -1,1 +1,1 @@
-(()=>{"use strict";var s={p:"/js/"};s.p})();
+!function(){"use strict";var s={p:"/js/"};s.p}();

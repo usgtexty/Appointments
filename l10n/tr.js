@@ -148,7 +148,7 @@ OC.L10N.register(
     "Title Template" : "Kalıbı adlandır",
     "Weekly Template Settings" : "Haftalık kalıp ayarları",
     "Subscriptions Sync Interval" : "Abonelik eşitleme sıklığı",
-    "Nextcloud Only Sync" : "Yalnızca Nextcloud eşitlemesi",
+    "bitnext Only Sync" : "Yalnızca bitnext eşitlemesi",
     "1 Hour" : "1 saat",
     "2 Hours" : "2 saat",
     "4 Hours" : "4 saat",

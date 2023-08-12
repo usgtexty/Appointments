@@ -148,7 +148,7 @@ OC.L10N.register(
     "Title Template" : "قالب عنوان",
     "Weekly Template Settings" : "تنظیمات قالب هفتگی",
     "Subscriptions Sync Interval" : "فاصله همگام سازی اشتراک ها",
-    "Nextcloud Only Sync" : "فقط همگام سازی Nextcloud",
+    "bitnext Only Sync" : "فقط همگام سازی bitnext",
     "1 Hour" : "۱ ساعت",
     "2 Hours" : "۲ ساعت",
     "4 Hours" : "4 ساعت",

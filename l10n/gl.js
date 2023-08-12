@@ -148,7 +148,7 @@ OC.L10N.register(
     "Title Template" : "Modelo de título",
     "Weekly Template Settings" : "Axustes de modelo semanal",
     "Subscriptions Sync Interval" : "Intervalo de sincronización de subscricións",
-    "Nextcloud Only Sync" : "Sincronización só con Nextcloud",
+    "bitnext Only Sync" : "Sincronización só con bitnext",
     "1 Hour" : "1 hora",
     "2 Hours" : "2 horas",
     "4 Hours" : "4 horas",
