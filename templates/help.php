@@ -80,7 +80,7 @@ form{
     </p>
     <p class="srgdev-appt-hs-p-h">
         <strong id="srgdev-sec_emaildef"><code>useDefaultEmail</code></strong> - Most instance of NC won't have the particular configuration allowing to send emails on behalf of organizers. Therefore, the default email address as per
-        >Mail Settings is used, and your address is added in the "Reply-To:" header field. If your bitnext configuration supports sending out emails for individual users, Admins can override the 'useDefaultEmail' directive like so:
+        Mail Settings is used, and your address is added in the "Reply-To:" header field. If your bitnext configuration supports sending out emails for individual users, Admins can override the 'useDefaultEmail' directive like so:
         <code class="srgdev-appt-hs-code_short">occ config:app:set appointments useDefaultEmail --value no</code></p>
     <p class="srgdev-appt-hs-p-h">
         <strong id="srgdev-sec_emailmoretext"><code>Additional Email Text</code></strong> - this text is appended as paragraph to the end of validation and confirmation emails. Currently only pain text is allowed, HTML will be escaped.
